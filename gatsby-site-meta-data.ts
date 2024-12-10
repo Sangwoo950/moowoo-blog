@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `sang-woo.com`,
+  description: `개발자 무우`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
+  siteUrl: `https://sang-woo.com/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -21,22 +21,22 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
-    stack: ['Frontend', 'React', 'Typescript'],
+    name: `박상우`,
+    nickname: `무우`,
+    stack: ['Frontend', 'React', 'Typescript', 'SQL', 'Vue'],
     bio: {
-      email: `ljm991108@gmail.com`,
-      residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      email: `qtd950@gmail.com`,
+      residence: 'Suwon, South Korea',
+      bachelorDegree: 'Ansan Univ. Tourism English (2014.03-2019.02)',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/Sangwoo950`,
+      linkedIn: `https://www.linkedin.com/in/sangwoo950/`,
+      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC29D3B4%D3%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://raphaeluju.tistory.com/',
+      velog: 'https://velog.io/@u_ju',
     },
   },
 
@@ -45,12 +45,12 @@ export default {
    */
   featured: [
     {
-      title: 'category1',
-      category: 'featured-category1',
+      title: 'moowoo-ssul',
+      category: 'featured-ssul',
     },
     {
-      title: 'category2',
-      category: 'featured-category2',
+      title: 'troubleshooting',
+      category: 'featured-troubleshooting',
     },
   ],
 
@@ -60,26 +60,42 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
-      kr: 'A 회사',
-      info: 'A 팀',
-      link: '',
+      date: '2024.02.03 - NOW',
+      en: 'Wadiz Corp.',
+      kr: '와디즈(주)',
+      info: 'CX',
+      link: 'https://www.wadiz.kr/web/main',
     },
     {
       category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
-      link: '',
+      date: '2022.01.04 - NOW',
+      en: 'BhnB Corp.',
+      kr: '반비(주)',
+      info: '개발팀',
+      link: 'https://www.bahnb.com/',
     },
     {
-      category: 'Activity',
+      category: 'Career',
+      date: '2022.01.04 - NOW',
+      en: 'DongBo Corp.',
+      kr: '동보산업(주)',
+      info: '믈류팀',
+      link: 'http://www.dongbo21.com/',
+    },
+    // {
+    //   category: 'Activity',
+    //   date: '2023.07 - NOW',
+    //   en: 'Community',
+    //   kr: '커뮤니티',
+    //   info: 'IT 커뮤니티',
+    //   link: '',
+    // },
+    {
+      category: 'Education',
       date: '2023.07 - NOW',
-      en: 'Community',
-      kr: '커뮤니티',
-      info: 'IT 커뮤니티',
+      en: 'Education',
+      kr: '교육',
+      info: '정보처리산업기사(과정평가형)JAVA',
       link: '',
     },
   ],
