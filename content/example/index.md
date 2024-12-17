@@ -1,8 +1,8 @@
 ---
 emoji: 👩🏻‍💻
 title: 'example1'
-date: '2020-10-30'
-categories: featured-category1
+date: '2024-12-10'
+categories: featured-moowoo-ssul
 ---
 
 ## 예시 글입니다.
@@ -12,4 +12,5 @@ categories: featured-category1
 test
 
 ```toc
+
 ```

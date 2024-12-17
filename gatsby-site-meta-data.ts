@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`danmin20/danmin-gatsby-blog`,
+      repo: ``, //`sangwoo950/danmin-gatsby-blog`,
     },
   },
 
@@ -32,7 +32,7 @@ export default {
     social: {
       github: `https://github.com/Sangwoo950`,
       linkedIn: `https://www.linkedin.com/in/sangwoo950/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC29D3B4%D3%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      resume: `https://www.figma.com/design/lafyOejkWm3KCtyZQfencm/%EB%B0%95%EC%83%81%EC%9A%B0-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0-1&t=LKWruIn4zslIkyc1-1`,
     },
     dropdown: {
       tistory: 'https://raphaeluju.tistory.com/',
@@ -63,7 +63,7 @@ export default {
       date: '2024.02.03 - NOW',
       en: 'Wadiz Corp.',
       kr: '와디즈(주)',
-      info: 'CX',
+      info: 'CX팀 - 솔루션 개발/기획자',
       link: 'https://www.wadiz.kr/web/main',
     },
     {
@@ -71,7 +71,7 @@ export default {
       date: '2022.01.04 - NOW',
       en: 'BhnB Corp.',
       kr: '반비(주)',
-      info: '개발팀',
+      info: '개발팀 - 웹 개발자',
       link: 'https://www.bahnb.com/',
     },
     {
@@ -79,7 +79,7 @@ export default {
       date: '2022.01.04 - NOW',
       en: 'DongBo Corp.',
       kr: '동보산업(주)',
-      info: '믈류팀',
+      info: '믈류팀 - 자재관리',
       link: 'http://www.dongbo21.com/',
     },
     // {
@@ -93,10 +93,18 @@ export default {
     {
       category: 'Education',
       date: '2023.07 - NOW',
-      en: 'Education',
-      kr: '교육',
-      info: '정보처리산업기사(과정평가형)JAVA',
-      link: '',
+      en: '정보처리산업기사(과정평가형) JAVA',
+      kr: '',
+      info: 'Java 프로그래밍 및 소프트웨어 개발',
+      link: 'https://www.example.com/java-certification',
+    },
+    {
+      category: 'Education',
+      date: '2023.07 - NOW',
+      en: '내일배움캠프 React 1기',
+      kr: '',
+      info: 'React 프레임워크를 활용한 웹, 애플리케이션 개발.',
+      link: 'https://www.example.com/react-camp',
     },
   ],
 
@@ -105,14 +113,53 @@ export default {
    */
   projects: [
     {
-      title: 'Portfolio',
+      title: 'Tipper',
       description: '포트폴리오',
-      techStack: ['React', 'Next.js', 'Typescript'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
+      techStack: ['React', 'Firebase', 'Typescript', 'lodash', 'axios', 'Vercel'],
+      thumbnailUrl: '/assets/tipper_thumbnail.jpg', // Path to your in the 'assets' folder
       links: {
-        post: '',
-        github: '',
-        demo: '',
+        post: '금융관리 초보자를 위한 팁을 드려요! 자금 마련의 기본인 예금, 적금 상품들을 비교해주고 꿀팁들을 공유하는 사이트입니다.',
+        github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
+        demo: 'https://tipper-seven.vercel.app/',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
+      title: 'GND',
+      description: '포트폴리오',
+      techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
+      thumbnailUrl: '/assets/Tipper_thumbnaul.jpg', // Path to your in the 'assets' folder
+      links: {
+        post: '개발자 나두 할 수 있어!, 웹개발 공부를 하는 학생들이 강의를 듣기 편하도록 카테고리 별로 나누어 유튜브 강의를 제공한다..',
+        github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
+        demo: 'https://tipper-seven.vercel.app/',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
+      title: 'GND',
+      description: '포트폴리오',
+      techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
+      thumbnailUrl: 'assets/Tipper_thumbnaul.jpg', // Path to your in the 'assets' folder
+      links: {
+        post: '개발자 나두 할 수 있어!, 웹개발 공부를 하는 학생들이 강의를 듣기 편하도록 카테고리 별로 나누어 유튜브 강의를 제공한다..',
+        github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
+        demo: 'https://tipper-seven.vercel.app/',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
+      title: 'GND',
+      description: '포트폴리오',
+      techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
+      thumbnailUrl: '/assets/Tipper_thumbnaul.jpg', // Path to your in the 'assets' folder
+      links: {
+        post: '개발자 나두 할 수 있어!, 웹개발 공부를 하는 학생들이 강의를 듣기 편하도록 카테고리 별로 나누어 유튜브 강의를 제공한다..',
+        github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
+        demo: 'https://tipper-seven.vercel.app/',
         googlePlay: '',
         appStore: '',
       },
@@ -124,7 +171,7 @@ export default {
    */
   remittances: {
     toss: {
-      link: 'https://toss.me/danmin',
+      link: 'https://toss.me/',
       qrCode: 'toss_qr.svg', // Path to your in the 'assets' folder
     },
     kakaopay: {
