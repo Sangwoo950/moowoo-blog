@@ -292,6 +292,7 @@ $content-image-max-height: 560px;
   font-size: 85%;
   padding: 0.2em 0.4em;
   text-shadow: none;
+  color: #f8f8f2;
 }
 
 .markdown :not(pre) > code.language-text {
@@ -853,7 +854,7 @@ $content-image-max-height: 560px;
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: rgba(251, 251, 252, 1);
+  background-color: #2d2d2d;
   border-radius: 3px;
 }
 

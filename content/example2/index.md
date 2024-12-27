@@ -1,7 +1,7 @@
 ---
-emoji: 👩🏻‍💻
-title: 'example2'
-date: '2020-10-30'
+emoji: 🎄
+title: '크리스마스 기념 Bot 만들기(aka.호진이)'
+date: '2024-12-27'
 categories: featured-troubleshooting
 ---
 
