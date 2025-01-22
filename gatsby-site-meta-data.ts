@@ -45,7 +45,7 @@ export default {
    */
   featured: [
     {
-      title: 'moowoo-ssul',
+      title: 'ssul',
       category: 'featured-ssul',
     },
     {
@@ -172,10 +172,10 @@ export default {
   remittances: {
     toss: {
       link: 'https://toss.me/',
-      qrCode: 'toss_qr.svg', // Path to your in the 'assets' folder
+      qrCode: 'toss_qr_test.svg', // Path to your in the 'assets' folder
     },
     kakaopay: {
-      qrCode: 'kakao_qr.svg', // Path to your in the 'assets' folder
+      qrCode: 'kakao_qr_test.svg', // Path to your in the 'assets' folder
     },
   },
 };

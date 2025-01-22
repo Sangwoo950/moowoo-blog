@@ -51,15 +51,16 @@ const BuyMeACoffee: React.FC = () => {
 
   return (
     <>
-      <S.Button onClick={openModal}>
+      {/* give me coffee */}
+      {/* <S.Button onClick={openModal}>
         <S.Text>
           {'BuyMeACoffee☕️'.split('').map((char, index) => (
             <p key={index}>{char}</p>
           ))}
         </S.Text>
-      </S.Button>
+      </S.Button> */}
 
-      {isModalOpened &&
+      {/* {isModalOpened &&
         createPortal(
           <S.ModalBackground onClick={closeModal}>
             <S.Modal>
@@ -92,7 +93,7 @@ const BuyMeACoffee: React.FC = () => {
             </S.Modal>
           </S.ModalBackground>,
           document.body,
-        )}
+        )} */}
     </>
   );
 };

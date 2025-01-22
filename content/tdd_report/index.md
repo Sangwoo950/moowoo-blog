@@ -2,7 +2,7 @@
 emoji: ✨
 title: '최적화... TDD... 효율... 다 따져'
 date: '2024-12-19'
-categories: featured-moowoo-ssul
+categories: featured-ssul
 ---
 
 ## 코드 리펙토링을 통한 최적화.
