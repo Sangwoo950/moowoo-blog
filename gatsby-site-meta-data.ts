@@ -167,7 +167,7 @@ export default {
       techStack: ['React', 'Firebase', 'Typescript', 'lodash', 'axios', 'Vercel'],
       thumbnailUrl: 'tipper_thumbnail.jpg', // Path to your in the 'assets' folder
       links: {
-        // post: '',
+        post: '',
         github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
         demo: 'https://tipper-seven.vercel.app',
         googlePlay: '',
@@ -181,7 +181,7 @@ export default {
       techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
       thumbnailUrl: 'GND_thumbnaul.gif', // Path to your in the 'assets' folder
       links: {
-        // post: '',
+        post: '',
         github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
         demo: 'https://tipper-seven.vercel.app/',
         googlePlay: '',
@@ -194,26 +194,13 @@ export default {
       techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
       thumbnailUrl: 'wadizHelpcenter.png', // Path to your in the 'assets' folder
       links: {
-        // post: '',
+        post: '',
         github: 'https://github.com/Sangwoo950',
         demo: 'https://tipper-seven.vercel.app/',
         googlePlay: '',
         appStore: '',
       },
     },
-    // {
-    //   title: 'GND',
-    //   description: '포트폴리오',
-    //   techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
-    //   thumbnailUrl: '/assets/Tipper_thumbnaul.jpg', // Path to your in the 'assets' folder
-    //   links: {
-    //     post: '개발자 나두 할 수 있어!, 웹개발 공부를 하는 학생들이 강의를 듣기 편하도록 카테고리 별로 나누어 유튜브 강의를 제공한다..',
-    //     github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
-    //     demo: 'https://tipper-seven.vercel.app/',
-    //     googlePlay: '',
-    //     appStore: '',
-    //   },
-    // },
   ],
 
   /**
