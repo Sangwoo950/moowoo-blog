@@ -3,7 +3,7 @@ export default {
    * basic Information
    */
   title: `sang-woo.com`,
-  description: `개발자 무우`,
+  description: `개발자 박상우`,
   language: `ko`,
   siteUrl: `https://sang-woo.com/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
