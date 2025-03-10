@@ -80,7 +80,7 @@ export const pageQuery = graphql`
           social {
             github
             linkedIn
-            resume
+            #resume
           }
           dropdown {
             velog
