@@ -27,7 +27,7 @@ export default {
     bio: {
       email: `qtd950@gmail.com`,
       residence: 'Suwon, South Korea',
-      bachelorDegree: 'Ansan Univ. Tourism English (2014.03-2019.07)',
+      bachelorDegree: 'Ansan Univ. Tourism English',
     },
     social: {
       github: `https://github.com/Sangwoo950`,
@@ -168,7 +168,7 @@ export default {
       thumbnailUrl: 'tipper_thumbnail.jpg', // Path to your in the 'assets' folder
       links: {
         post: '',
-        github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
+        github: 'https://github.com/Sangwoo950/open-an-account',
         demo: 'https://tipper-seven.vercel.app',
         googlePlay: '',
         appStore: '',
@@ -182,21 +182,21 @@ export default {
       thumbnailUrl: 'GND_thumbnaul.gif', // Path to your in the 'assets' folder
       links: {
         post: '',
-        github: 'https://github.com/Sangwoo950/open-an-account?tab=readme-ov-file',
-        demo: 'https://tipper-seven.vercel.app/',
+        github: 'https://github.com/Sangwoo950/GND',
+        demo: 'https://gnd-project.vercel.app/',
         googlePlay: '',
         appStore: '',
       },
     },
     {
       title: 'WadizHelpcenter',
-      description: 'wadiz 고객센터',
+      description: 'wadiz 도움말센터',
       techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],
       thumbnailUrl: 'wadizHelpcenter.png', // Path to your in the 'assets' folder
       links: {
         post: '',
         github: 'https://github.com/Sangwoo950',
-        demo: 'https://tipper-seven.vercel.app/',
+        demo: 'https://helpcenter.wadiz.kr/hc/ko',
         googlePlay: '',
         appStore: '',
       },
