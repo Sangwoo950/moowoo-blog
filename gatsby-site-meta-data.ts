@@ -131,14 +131,6 @@ export default {
       link: '',
     },
     {
-      category: 'Poreject',
-      date: '2024.08 - 2024.09',
-      en: 'Side Quick Menu Development',
-      kr: '사이드 퀵 메뉴 개발',
-      info: 'Inbound, Outbound 시스템 기획 및 데이터 마이그레이션 작업',
-      link: '',
-    },
-    {
       category: 'Education',
       date: '2022.07 - 2023.03',
       en: '내일배움캠프 React 1기',
