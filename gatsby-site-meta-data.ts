@@ -60,8 +60,8 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2024.02.03 - NOW',
-      en: 'Wadiz Corp.',
+      date: '2024.02.03 - 2025.03.31',
+      en: 'wadiz Corp.',
       kr: '와디즈(주)',
       info: 'CX팀 - 솔루션 개발/기획',
       link: 'https://www.wadiz.kr/web/main',
@@ -69,7 +69,7 @@ export default {
     {
       category: 'Career',
       date: '2022.03 - 2022.07',
-      en: 'BhnB Corp.',
+      en: 'BAHNB Corp.',
       kr: '반비(주)',
       info: '개발팀 - 웹 개발',
       link: 'https://www.bahnb.com/',
@@ -77,14 +77,14 @@ export default {
     {
       category: 'Career',
       date: '2020.10.19 - 2021.05.01',
-      en: 'DongBo Corp.',
+      en: 'DdongBo Corp.',
       kr: '동보산업(주)',
       info: '믈류팀 - 자재관리',
       link: 'http://www.dongbo21.com/',
     },
     {
       category: 'Poreject',
-      date: '2025.02 - 2025.NOW',
+      date: '2025.02 - 2025.03',
       en: 'Translation Automation',
       kr: '번역 자동화',
       info: '구글 번역 API를 활용한 번역 자동화 시스템 개발',
@@ -92,7 +92,7 @@ export default {
     },
     {
       category: 'Poreject',
-      date: '2025.02 - 2025.NOW',
+      date: '2025.03 - 2025.05',
       en: 'Global Help Center',
       kr: '글로벌 헬프센터 구축',
       info: '사용자 Location, Language, Device에 따른 웹페이지 개발',
@@ -108,7 +108,7 @@ export default {
     },
     {
       category: 'Poreject',
-      date: '2025.01 - 2025.02',
+      date: '2025.03 - 2025.02',
       en: 'AI bot deep learning',
       kr: 'AI bot 딥러닝',
       info: 'B to B, B to C 마이그레이션 데이터 기반 AI bot 학습',
