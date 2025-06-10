@@ -90,14 +90,14 @@ export default {
       info: '개발팀 - 웹 개발',
       link: 'https://www.bahnb.com/',
     },
-    {
-      category: 'Career',
-      date: '2020.10.19 - 2021.05.01',
-      en: 'DdongBo Corp.',
-      kr: '동보산업(주)',
-      info: '믈류팀 - 자재관리',
-      link: 'http://www.dongbo21.com/',
-    },
+    // {
+    //   category: 'Career',
+    //   date: '2020.10.19 - 2021.05.01',
+    //   en: 'DdongBo Corp.',
+    //   kr: '동보산업(주)',
+    //   info: '믈류팀 - 자재관리',
+    //   link: 'http://www.dongbo21.com/',
+    // },
     {
       category: 'Project',
       date: '2025.02 - 2025.03',
