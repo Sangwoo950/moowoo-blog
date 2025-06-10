@@ -99,7 +99,7 @@ export default {
       link: 'http://www.dongbo21.com/',
     },
     {
-      category: 'Poreject',
+      category: 'Project',
       date: '2025.02 - 2025.03',
       en: 'Translation Automation',
       kr: '번역 자동화',
@@ -107,7 +107,7 @@ export default {
       link: '',
     },
     {
-      category: 'Poreject',
+      category: 'Project',
       date: '2025.03 - 2025.05',
       en: 'Global Help Center',
       kr: '글로벌 헬프센터 구축',
@@ -115,15 +115,15 @@ export default {
       link: '',
     },
     {
-      category: 'Poreject',
+      category: 'Project',
       date: '2025.01 - 2025.03',
       en: 'helpCenter SEO',
       kr: '도움말센터 SEO',
-      info: '',
+      info: '메타 태그, 키워드 배치, heading 구조 개선 등 SEO 요소를 반영한 문서 최적화 수행',
       link: '',
     },
     {
-      category: 'Poreject',
+      category: 'Project',
       date: '2025.03 - 2025.02',
       en: 'AI bot deep learning',
       kr: 'AI bot 딥러닝',
@@ -131,7 +131,7 @@ export default {
       link: '',
     },
     {
-      category: 'Poreject',
+      category: 'Project',
       date: '2024.11 - 2025.01',
       en: 'AICC',
       kr: 'AICC 도입',
@@ -139,7 +139,7 @@ export default {
       link: '',
     },
     {
-      category: 'Poreject',
+      category: 'Project',
       date: '2024.09 - 2024.11',
       en: 'helpCenter development',
       kr: '도움말센터 개발',
