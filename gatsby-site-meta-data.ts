@@ -60,6 +60,22 @@ export default {
   timestamps: [
     {
       category: 'Career',
+      date: '2024.05.26 - NOW',
+      en: 'Bithumb Corp.',
+      kr: '빗썸(주)',
+      info: '영업지원 - 솔루션 개발/기획',
+      link: 'https://www.bithumb.com/react',
+    },
+    {
+      category: 'Career',
+      date: '2024.04.07 - 2025.05.07',
+      en: 'wadiz Corp.',
+      kr: '와디즈(주)',
+      info: '프리랜서 - 글로벌 도움말센터 개발',
+      link: 'https://www.wadiz.kr/web/main',
+    },
+    {
+      category: 'Career',
       date: '2024.02.03 - 2025.03.31',
       en: 'wadiz Corp.',
       kr: '와디즈(주)',
