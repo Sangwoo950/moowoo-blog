@@ -119,7 +119,7 @@ export default {
       date: '2025.01 - 2025.03',
       en: 'helpCenter SEO',
       kr: '도움말센터 SEO',
-      info: '메타 태그, 키워드 배치, heading 구조 개선 등 SEO 요소를 반영한 문서 최적화 수행',
+      info: '메타 태그, 키워드 배치, heading 구조 개선 등 최적화 수행',
       link: '',
     },
     {
