@@ -22,7 +22,7 @@ export default {
    */
   author: {
     name: `박상우`,
-    nickname: `무우`,
+    nickname: `상우`,
     stack: ['Frontend', 'React', 'Typescript', 'SQL'],
     bio: {
       email: `qtd950@gmail.com`,
