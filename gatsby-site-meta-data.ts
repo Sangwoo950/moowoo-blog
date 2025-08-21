@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`sangwoo950/danmin-gatsby-blog`,
+      repo: `sangwoo950/moowoo-blog-comments`,
     },
   },
 
