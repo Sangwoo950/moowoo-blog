@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import React, { useMemo } from 'react';
 
 type ImageNode = {
@@ -21,7 +21,7 @@ const Image = ({ src, ...rest }: React.ImgHTMLAttributes<HTMLImageElement>) => {
             extension
             publicURL
             childImageSharp {
-              gatsbyImageData(placeholder: BLURRED)
+              gatsbyImageData(placeholder: NONE, formats: [AUTO, WEBP], quality: 80)
             }
           }
         }
@@ -44,7 +44,15 @@ const Image = ({ src, ...rest }: React.ImgHTMLAttributes<HTMLImageElement>) => {
     return <img src={publicURL} alt={publicURL} {...rest} />;
   }
 
-  return <GatsbyImage image={childImageSharp.gatsbyImageData} alt={publicURL} />;
+  // 새로운 gatsby-plugin-image API 사용
+  const image = getImage(childImageSharp);
+
+  if (!image) {
+    return <img src={publicURL} alt={publicURL} {...rest} />;
+  }
+
+  // GatsbyImage는 기본 props만 전달
+  return <GatsbyImage image={image} alt={rest.alt || publicURL} />;
 };
 
 export default Image;

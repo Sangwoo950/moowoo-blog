@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `sang-woo.com`,
+  title: `sang-woo.blog`,
   description: `개발자 박상우`,
   language: `ko`,
-  siteUrl: `https://sang-woo.com/`,
+  siteUrl: `https://sang-woo.blog/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -79,15 +79,15 @@ export default {
       date: '2024.02.03 - 2025.03.31',
       en: 'wadiz Corp.',
       kr: '와디즈(주)',
-      info: 'CX팀 - 솔루션 개발/기획',
+      info: 'CX 솔루션 팀 - 솔루션 개발/기획',
       link: 'https://www.wadiz.kr/web/main',
     },
     {
       category: 'Career',
-      date: '2022.03 - 2022.07',
+      date: '2022.05.03 - 2022.08.31',
       en: 'BAHNB Corp.',
       kr: '반비(주)',
-      info: '개발팀 - 웹 개발',
+      info: '개발팀 - 웹/플랫폼 개발',
       link: 'https://www.bahnb.com/',
     },
     // {
