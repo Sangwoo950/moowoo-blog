@@ -68,7 +68,7 @@ export default {
     },
     {
       category: 'Career',
-      date: '2024.02.05 - 2025.05.07',
+      date: '2025.04.07 - 2025.05.07',
       en: 'wadiz Corp.',
       kr: '와디즈(주)',
       info: '프리랜서 - 글로벌 도움말센터 개발',
