@@ -132,15 +132,14 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions,
 
   const filteredEdges = result.data.allMarkdownRemark.edges.map((edge) => {
     const { categories } = edge.node.frontmatter;
-    const categoriesArr = categories.split(' ');
-
+    // categories가 null이거나 undefined인 경우 기본값 설정
+    const categoriesStr = categories || 'uncategorized';
+    const categoriesArr = categoriesStr.split(' ');
     const categorySet: Set<string> = new Set();
-
     categoriesArr.forEach((category) => {
       const categoryName = category.replace('featured-', '').trim();
       categorySet.add(categoryName);
     });
-
     return {
       ...edge,
       node: {

@@ -60,7 +60,7 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2024.05.26 - NOW',
+      date: '2024.05.26 - 2025.08.26',
       en: 'Bithumb Corp.',
       kr: '빗썸(주)',
       info: '영업지원 - 솔루션 개발/기획',
