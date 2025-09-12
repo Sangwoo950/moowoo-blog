@@ -184,7 +184,80 @@ categories: featured-ssul
 
 ---
 
-## 2. 난 뭘 잘할 수 있지?
+## 2. JAVA 버전과 레포방식
+
+### 2-1. JAVA 버전 비교
+
+<table style="width:100%; border-collapse: collapse; color:#fff; background-color:#222; border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background-color:;"> <!-- 딥 블루 계열 헤더 -->
+      <th style="padding:10px; text-align:left;">옵션</th>
+      <th style="padding:10px; text-align:left;">장점</th>
+      <th style="padding:10px; text-align:left;">주의점</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-top:1px solid #444;">
+      <td style="padding:10px;">Java 17 (LTS)</td>
+      <td style="padding:10px;">
+        - Spring Boot 3.x와 완벽 호환<br>
+        - 안정성 높음<br>
+        - LTS로 장기 지원
+      </td>
+      <td style="padding:10px;">최신 기능 일부 미지원</td>
+    </tr>
+    <tr style="border-top:1px solid #444;">
+      <td style="padding:10px;">Java 21 (LTS)</td>
+      <td style="padding:10px;">
+        - 최신 문법과 성능 개선<br>
+        - 최신 라이브러리 활용 가능
+      </td>
+      <td style="padding:10px;">일부 오래된 라이브러리 호환 문제 가능</td>
+    </tr>
+    <tr style="border-top:1px solid #444;">
+      <td style="padding:10px;">Java 20 이상 (LTS X)</td>
+      <td style="padding:10px;">- 실험적 기능 미리 사용 가능</td>
+      <td style="padding:10px;">- LTS 아님, 장기 유지보수 어려움</td>
+    </tr>
+  </tbody>
+</table>
+</br>
+
+##### 오류를 해결하며, 헤쳐나가는 것이 개발자의 숙명이지만, 사실 초기단계에서 안정성을 배제하고 모험을 하는 것이 맞을까? 하는 생각이기 떄문에
+
+##### 개인적으로 JAVA 17이 ... 아무래도 좋다고 생각합니다!
+
+---
+
+### 2-2. 레포 방식의 차이
+
+MSA를 사용하니까 비슷한 구조방식의 '**폴리 레포**'를 써야 된다고 생각했는데, 또 그것만은 아닌 것 같다.
+솔직하게 모노레포 방식으로 진행하고 서비스 확장도에 따라서 레포 볼륨이 커지면 ~ 모노레포 방식에서 서비스 별로 분할해서 폴리레포 방식으로 진행해서 독립적으로 관리/진행해도 괜찮지 않을까?
+
+<div style="background-color:#2E7D32; color:#fff; padding:12px 15px; margin-bottom:15px; border-radius:8px;">
+  <h3 style="margin:5px 0 12px 0;">MSA (Microservices Architecture)</h3>
+  <p style="margin:3px 0;"><strong>설명:</strong> 서비스 단위를 작게 나누어 독립적으로 배포/운영</p>
+  <p style="margin:3px 0;"><strong>장점:</strong> 독립적 배포 가능, 장애 격리, 기술 스택 자유</p>
+  <p style="margin:3px 0;"><strong>주의점:</strong> 서비스 간 통신 복잡, 운영/ 모니터링 부담 증가</p>
+</div>
+
+<div style="background-color:#388E3C; color:#fff; padding:12px 15px; margin-bottom:15px; border-radius:8px;">
+  <h3 style="margin:5px 0 12px 0;">폴리레포 (Polyrepo)</h3>
+  <p style="margin:3px 0;"><strong>설명:</strong> 서비스별로 독립된 레포 존재, 각자 관리</p>
+  <p style="margin:3px 0;"><strong>장점:</strong> 서비스 독립성 극대화, CI/CD 단순화, 권한 관리 쉬움</p>
+  <p style="margin:3px 0;"><strong>주의점:</strong> 공통 코드 관리 어려움, 레포 많아 관리 부담</p>
+</div>
+
+<div style="background-color:#43A047; color:#fff; padding:12px 15px; margin-bottom:15px; border-radius:8px;">
+  <h3 style="margin:5px 0 12px 0;">모노레포 (Monorepo)</h3>
+  <p style="margin:3px 0;"><strong>설명:</strong> 여러 서비스를 하나의 레포에서 관리</p>
+  <p style="margin:3px 0;"><strong>장점:</strong> 공통 코드 공유 용이, 통합 빌드/테스트 관리 쉬움</p>
+  <p style="margin:3px 0;"><strong>주의점:</strong> 레포 커짐, 빌드/배포 관리 복잡, 권한 관리 어려움</p>
+</div>
+
+---
+
+## 3. 난 뭘 잘할 수 있지?
 
 자 먼저, 사이드 프로젝트를 진행하다보면 프로젝트 조직에서의 역할이라는 것을 부여받게 된다.
 
@@ -196,7 +269,7 @@ categories: featured-ssul
 
 가장 좋은 건? 둘다 만족하는 "내가 잘하면서 하고 싶은 것"이다.
 
-내 "주 무기"와 "니즈"를 합친다면...
+내 '_***주 무기***_' 와 '_**니즈**_' 를 합친다면...
 
 내가 해당 프로젝트에서 할 수 있는 부분은 아래와 같을 것 으로 예상
 
@@ -205,7 +278,7 @@ categories: featured-ssul
 3. 재고 관리 서비스
 
 여기서 자신있는 부분은 1번! 어드민 대시보드와 알림 서비스라고 생각.  
-메인 코스인 결제는 내가 감당하기엔 너무 큰 서비스라고 생각하고, 알림 정도면 충분히 해낼지도.
+메인 코스인 결제는 뉴비인 내가 감당하기엔 너무 큰 서비스라고 생각하고, 알림 정도면 충분히 해낼지도...
 
 전체 적인 흐름을 보아하면, 아래와 같이 예상.
 
@@ -213,13 +286,15 @@ categories: featured-ssul
 
 ### 세줄 요약
 
-1. 서비스가 확장됨에 따라 생각보다 많은 기술 스택이 요구되고 볼륨이 커짐
+**1. 서비스가 확장됨에 따라 생각보다 많은 기술 스택이 요구되고 볼륨이 커짐**
 
-ㄴ 보다 완벽하게(실제서비스 처럼) 만들 것인가? 에 대한 의문
+    ㄴ 보다 완벽하게(실제서비스 처럼) 만들 것인가? 에 대한 의문
 
-2. 나는 알림서비스, 대시보드 하고싶어요!! 다만, 다른 부분 맡아도 확장성 있게 서비스 구현 가능해요
+**2. Java는 안정성 때문에 17이 낫지 않을까 ~? 싶은데 다른 분 들의 의견이 궁금합니다!!**
 
-3. 전체적인 컨벤션 필요할 듯 해요... Git 관리부터, Code 영역 기타 등등...
+**3. 저는 알림 서비스, 대시보드 하고싶어요!! 다만, 다른 부분 맡아도 확장성 있게 서비스 구현 가능해요 :)**
+
+\*추가적으로 전체적인 컨벤션 필요성 에대해서 어떻게 생각하시나요? ... Git 관리부터, Code 영역 기타 등등...?
 
 ---
 
