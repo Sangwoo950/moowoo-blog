@@ -179,7 +179,7 @@ categories: featured-ssul
     <strong>비교군 장점:</strong> 구현 단순, FE 친화적<br>
     <strong>비교군 단점:</strong> 대규모 글로벌 서비스 확장성 제한, Java 연계 어려움
   </p>
-  <p style="margin:3px 0;"><strong>비고:</strong> 글로벌 확장, 해외 유저 유입</p>
+  <p style="margin:3px 0;"><strong>비고:</strong> 있으면 좋고 !! 없어도 낫배드</p>
 </div>
 
 ---
