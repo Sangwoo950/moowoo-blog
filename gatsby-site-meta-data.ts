@@ -197,6 +197,19 @@ export default {
       },
     },
     {
+      title: 'Carrot crawling',
+      description: '키워드 기반 당근마켓 크롤러',
+      techStack: ['Python', 'Selenium', 'asyncio', 'requests', 'BeautifulSoup4'],
+      thumbnailUrl: 'carrot_crawling.png', // Path to your in the 'assets' folder
+      links: {
+        post: '',
+        github: 'https://github.com/Sangwoo950/carrot_crawling',
+        demo: '',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
       title: 'WadizHelpcenter',
       description: 'wadiz 도움말센터',
       techStack: ['React', 'TypeScript', 'Youtube API', 'Firebase', 'Vercel'],

@@ -2,7 +2,7 @@
 emoji: 🥕
 title: '당근마켓 크롤러 개발기: 셀레니움부터 aiohttp까지'
 date: '2025-08-19'
-categories: featured-troubleshooting
+categories: featured-ssul
 ---
 
 ## 프로젝트 개요
